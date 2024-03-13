@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="	#dddddd">
+
+    <h2 style="text-align: center;" >Kayıt Formu</h2>
+
+    <form action="/submit_form.html" method="get" style="text-align: center;">
+        <!-- Text Input -->
+        <label for="fname">Ad:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lname">Soyad:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <!-- Email Input -->
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+
+        <!-- Password Input -->
+        <label for="pwd">Şifre:</label>
+        <input type="password" id="pwd" name="pwd" minlength="8" required><br><br>
+   
+
+        <!-- Date Input -->
+        <label for="dob">Doğum tarihi:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+     
+
+        <!-- Radio Button Input -->
+        <label>Cinsiyet:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Erkek</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Kadın</label><br><br>
+     
+
+        <!-- Select Input -->
+        <label for="country">Favori Meyve:</label>
+        <select id="country" name="country">
+            <option value="elma">Elma</option>
+            <option value="muz">Muz</option>
+            <option value="çilek">Çilek</option>
+            <option value="nar">Nar</option>
+        </select><br><br>
+   
+
+        <!-- Textarea Input -->
+        <label for="message">Mesaj:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+    
+
+        <!-- Submit Button -->
+        <button>Gönder</button>
+
+    </form>
+
+</body>
+
+</html>
