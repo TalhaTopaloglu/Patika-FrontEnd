@@ -1,0 +1,54 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.bgimage{
+    position: absolute;
+    opacity: 0.1;
+    z-index: -1;
+    
+}
+.header{
+    font-size: 30px;
+    color: #A52A2A;
+}
+
+.navbar{
+    font-size: 25px;
+
+}
+
+h3{
+    color: #A52A2A;
+    font-size: 40px;
+}
+
+article{
+    margin: 0% 20%;
+}
+
+.info{
+    font-size: 25px;
+}
+
+.navbar>a{
+    text-decoration: none;
+    padding: 5px 20px;
+}
+#productList{
+    margin: 0% 46%;
+    font-size: 25px;
+}
+
+a:hover{
+    background-color: #7578ff;
+    color: #ffffff;
+}
+
+.productPriceList{
+    list-style-type: none;
+    font-size: 30px;
+
+}
