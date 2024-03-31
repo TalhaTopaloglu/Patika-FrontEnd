@@ -1,0 +1,1 @@
+![image](assets/drum_kit.JPG)
