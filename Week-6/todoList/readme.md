@@ -1,0 +1,1 @@
+Canlı Site https://patika-front-end-m3kq.vercel.app/
