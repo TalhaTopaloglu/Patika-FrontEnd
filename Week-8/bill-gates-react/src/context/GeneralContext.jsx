@@ -6,9 +6,9 @@ const GenaralContext = createContext();
 export default GenaralContext;
 
 export function GeneralProvider({ children }) {
-  const [totalMoney, setTotalMoney] = useState(100);
+  const [totalMoney, setTotalMoney] = useState(10000000000);
   const [list, setList] = useState([]);
-
+  
   const lastItems = {};
   
   for (const product of list) {
@@ -19,12 +19,22 @@ export function GeneralProvider({ children }) {
   
   console.log(lastElements);
   
+  let totalCost= 0
+
+  lastElements.forEach((item) => {
+    totalCost += (item.itemCost *item.count)
+  })
+
+  console.log(totalCost);
+  
+  
   const data = {
     totalMoney,
     setTotalMoney,
     list,
     setList,
-    lastElements
+    lastElements,
+    totalCost
   };
  
   return (
