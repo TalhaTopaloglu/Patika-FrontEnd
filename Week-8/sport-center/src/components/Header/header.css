@@ -1,8 +1,10 @@
 #header {
-    background-color: var(--background-color-3);
+    background-color: transparent;
     position: fixed;
     width: 100%;
     transition: 0.5s linear;
+    z-index: 999;
+
 }
 
 #header .header{
