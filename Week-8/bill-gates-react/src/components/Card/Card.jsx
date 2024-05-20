@@ -16,7 +16,7 @@ function Card() {
             <div className="item-name">{item.itemName}</div>
             <div className="item-cost">${item.itemCost}</div>
             <div className="item-control">
-              <CardInput receipt={item.receipt} data = {data} total={item.total} id ={item.id} itemCost = {item.itemCost} itemName = {item.itemName}/>
+              <CardInput  data = {data} itemCost = {item.itemCost} itemName = {item.itemName}/>
             </div>
           </div>
         );
